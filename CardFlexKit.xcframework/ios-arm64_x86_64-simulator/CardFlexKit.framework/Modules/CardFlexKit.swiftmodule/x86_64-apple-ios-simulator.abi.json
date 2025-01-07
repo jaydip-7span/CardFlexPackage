@@ -1,0 +1,1612 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Card",
+        "printedName": "Card",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0A0V4nameSSvp",
+            "mangledName": "$s11CardFlexKit0A0V4nameSSvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V4nameSSvg",
+                "mangledName": "$s11CardFlexKit0A0V4nameSSvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V4nameSSvs",
+                "mangledName": "$s11CardFlexKit0A0V4nameSSvs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V4nameSSvM",
+                "mangledName": "$s11CardFlexKit0A0V4nameSSvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0A0V6numberSSvp",
+            "mangledName": "$s11CardFlexKit0A0V6numberSSvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V6numberSSvg",
+                "mangledName": "$s11CardFlexKit0A0V6numberSSvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V6numberSSvs",
+                "mangledName": "$s11CardFlexKit0A0V6numberSSvs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V6numberSSvM",
+                "mangledName": "$s11CardFlexKit0A0V6numberSSvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "year",
+            "printedName": "year",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0A0V4yearSSvp",
+            "mangledName": "$s11CardFlexKit0A0V4yearSSvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V4yearSSvg",
+                "mangledName": "$s11CardFlexKit0A0V4yearSSvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V4yearSSvs",
+                "mangledName": "$s11CardFlexKit0A0V4yearSSvs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V4yearSSvM",
+                "mangledName": "$s11CardFlexKit0A0V4yearSSvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "month",
+            "printedName": "month",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0A0V5monthSSvp",
+            "mangledName": "$s11CardFlexKit0A0V5monthSSvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V5monthSSvg",
+                "mangledName": "$s11CardFlexKit0A0V5monthSSvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V5monthSSvs",
+                "mangledName": "$s11CardFlexKit0A0V5monthSSvs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V5monthSSvM",
+                "mangledName": "$s11CardFlexKit0A0V5monthSSvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cvv",
+            "printedName": "cvv",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0A0V3cvvSSvp",
+            "mangledName": "$s11CardFlexKit0A0V3cvvSSvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V3cvvSSvg",
+                "mangledName": "$s11CardFlexKit0A0V3cvvSSvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V3cvvSSvs",
+                "mangledName": "$s11CardFlexKit0A0V3cvvSSvs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0A0V3cvvSSvM",
+                "mangledName": "$s11CardFlexKit0A0V3cvvSSvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(number:name:year:month:cvv:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CardFlexKit.Card",
+                "usr": "s:11CardFlexKit0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CardFlexKit0A0V6number4name4year5month3cvvACSS_S4Stcfc",
+            "mangledName": "$s11CardFlexKit0A0V6number4name4year5month3cvvACSS_S4Stcfc",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11CardFlexKit0A0V",
+        "mangledName": "$s11CardFlexKit0A0V",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ActiveField",
+        "printedName": "ActiveField",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "number",
+            "printedName": "number",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardFlexKit.ActiveField.Type) -> CardFlexKit.ActiveField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActiveField",
+                    "printedName": "CardFlexKit.ActiveField",
+                    "usr": "s:11CardFlexKit11ActiveFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardFlexKit.ActiveField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActiveField",
+                        "printedName": "CardFlexKit.ActiveField",
+                        "usr": "s:11CardFlexKit11ActiveFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CardFlexKit11ActiveFieldO6numberyA2CmF",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO6numberyA2CmF",
+            "moduleName": "CardFlexKit"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardFlexKit.ActiveField.Type) -> CardFlexKit.ActiveField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActiveField",
+                    "printedName": "CardFlexKit.ActiveField",
+                    "usr": "s:11CardFlexKit11ActiveFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardFlexKit.ActiveField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActiveField",
+                        "printedName": "CardFlexKit.ActiveField",
+                        "usr": "s:11CardFlexKit11ActiveFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CardFlexKit11ActiveFieldO4nameyA2CmF",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO4nameyA2CmF",
+            "moduleName": "CardFlexKit"
+          },
+          {
+            "kind": "Var",
+            "name": "month",
+            "printedName": "month",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardFlexKit.ActiveField.Type) -> CardFlexKit.ActiveField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActiveField",
+                    "printedName": "CardFlexKit.ActiveField",
+                    "usr": "s:11CardFlexKit11ActiveFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardFlexKit.ActiveField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActiveField",
+                        "printedName": "CardFlexKit.ActiveField",
+                        "usr": "s:11CardFlexKit11ActiveFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CardFlexKit11ActiveFieldO5monthyA2CmF",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO5monthyA2CmF",
+            "moduleName": "CardFlexKit"
+          },
+          {
+            "kind": "Var",
+            "name": "year",
+            "printedName": "year",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardFlexKit.ActiveField.Type) -> CardFlexKit.ActiveField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActiveField",
+                    "printedName": "CardFlexKit.ActiveField",
+                    "usr": "s:11CardFlexKit11ActiveFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardFlexKit.ActiveField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActiveField",
+                        "printedName": "CardFlexKit.ActiveField",
+                        "usr": "s:11CardFlexKit11ActiveFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CardFlexKit11ActiveFieldO4yearyA2CmF",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO4yearyA2CmF",
+            "moduleName": "CardFlexKit"
+          },
+          {
+            "kind": "Var",
+            "name": "cvv",
+            "printedName": "cvv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardFlexKit.ActiveField.Type) -> CardFlexKit.ActiveField",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ActiveField",
+                    "printedName": "CardFlexKit.ActiveField",
+                    "usr": "s:11CardFlexKit11ActiveFieldO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardFlexKit.ActiveField.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActiveField",
+                        "printedName": "CardFlexKit.ActiveField",
+                        "usr": "s:11CardFlexKit11ActiveFieldO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CardFlexKit11ActiveFieldO3cvvyA2CmF",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO3cvvyA2CmF",
+            "moduleName": "CardFlexKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ActiveField",
+                "printedName": "CardFlexKit.ActiveField",
+                "usr": "s:11CardFlexKit11ActiveFieldO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ActiveField",
+                "printedName": "CardFlexKit.ActiveField",
+                "usr": "s:11CardFlexKit11ActiveFieldO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CardFlexKit11ActiveFieldO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO2eeoiySbAC_ACtFZ",
+            "moduleName": "CardFlexKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit11ActiveFieldO9hashValueSivp",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO9hashValueSivp",
+            "moduleName": "CardFlexKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit11ActiveFieldO9hashValueSivg",
+                "mangledName": "$s11CardFlexKit11ActiveFieldO9hashValueSivg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CardFlexKit11ActiveFieldO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11CardFlexKit11ActiveFieldO4hash4intoys6HasherVz_tF",
+            "moduleName": "CardFlexKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11CardFlexKit11ActiveFieldO",
+        "mangledName": "$s11CardFlexKit11ActiveFieldO",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardVariant",
+        "printedName": "CardVariant",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cardinfo",
+            "printedName": "cardinfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CardFlexKit.CardVariant.Type) -> (Swift.String, Swift.String, SwiftUI.Color) -> CardFlexKit.CardVariant",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String, SwiftUI.Color) -> CardFlexKit.CardVariant",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardVariant",
+                        "printedName": "CardFlexKit.CardVariant",
+                        "usr": "s:11CardFlexKit0A7VariantO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(name: Swift.String, cardIcon: Swift.String, color: SwiftUI.Color)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "SwiftUI.Color",
+                            "usr": "s:7SwiftUI5ColorV"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CardFlexKit.CardVariant.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardVariant",
+                        "printedName": "CardFlexKit.CardVariant",
+                        "usr": "s:11CardFlexKit0A7VariantO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11CardFlexKit0A7VariantO8cardinfoyACSS_SS7SwiftUI5ColorVtcACmF",
+            "mangledName": "$s11CardFlexKit0A7VariantO8cardinfoyACSS_SS7SwiftUI5ColorVtcACmF",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11CardFlexKit0A7VariantO",
+        "mangledName": "$s11CardFlexKit0A7VariantO",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardFlexAnimationView",
+        "printedName": "CardFlexAnimationView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "card",
+            "printedName": "card",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Card",
+                "printedName": "CardFlexKit.Card",
+                "usr": "s:11CardFlexKit0A0V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0aB13AnimationViewV4cardAA0A0Vvp",
+            "mangledName": "$s11CardFlexKit0aB13AnimationViewV4cardAA0A0Vvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Card",
+                    "printedName": "CardFlexKit.Card",
+                    "usr": "s:11CardFlexKit0A0V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV4cardAA0A0Vvg",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV4cardAA0A0Vvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Card",
+                    "printedName": "CardFlexKit.Card",
+                    "usr": "s:11CardFlexKit0A0V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV4cardAA0A0Vvs",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV4cardAA0A0Vvs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV4cardAA0A0VvM",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV4cardAA0A0VvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$card",
+            "printedName": "$card",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<CardFlexKit.Card>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Card",
+                    "printedName": "CardFlexKit.Card",
+                    "usr": "s:11CardFlexKit0A0V"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0aB13AnimationViewV5$card7SwiftUI7BindingVyAA0A0VGvp",
+            "mangledName": "$s11CardFlexKit0aB13AnimationViewV5$card7SwiftUI7BindingVyAA0A0VGvp",
+            "moduleName": "CardFlexKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<CardFlexKit.Card>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Card",
+                        "printedName": "CardFlexKit.Card",
+                        "usr": "s:11CardFlexKit0A0V"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV5$card7SwiftUI7BindingVyAA0A0VGvg",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV5$card7SwiftUI7BindingVyAA0A0VGvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardVariant",
+            "printedName": "cardVariant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardVariant",
+                "printedName": "CardFlexKit.CardVariant",
+                "usr": "s:11CardFlexKit0A7VariantO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0Ovp",
+            "mangledName": "$s11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0Ovp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardVariant",
+                    "printedName": "CardFlexKit.CardVariant",
+                    "usr": "s:11CardFlexKit0A7VariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0Ovg",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0Ovg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardVariant",
+                    "printedName": "CardFlexKit.CardVariant",
+                    "usr": "s:11CardFlexKit0A7VariantO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0Ovs",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0Ovs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0OvM",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV11cardVariantAA0aG0OvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$cardVariant",
+            "printedName": "$cardVariant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<CardFlexKit.CardVariant>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardVariant",
+                    "printedName": "CardFlexKit.CardVariant",
+                    "usr": "s:11CardFlexKit0A7VariantO"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0aB13AnimationViewV12$cardVariant7SwiftUI7BindingVyAA0aG0OGvp",
+            "mangledName": "$s11CardFlexKit0aB13AnimationViewV12$cardVariant7SwiftUI7BindingVyAA0aG0OGvp",
+            "moduleName": "CardFlexKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<CardFlexKit.CardVariant>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CardVariant",
+                        "printedName": "CardFlexKit.CardVariant",
+                        "usr": "s:11CardFlexKit0A7VariantO"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV12$cardVariant7SwiftUI7BindingVyAA0aG0OGvg",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV12$cardVariant7SwiftUI7BindingVyAA0aG0OGvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAction",
+            "printedName": "onAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0aB13AnimationViewV8onActionyycvp",
+            "mangledName": "$s11CardFlexKit0aB13AnimationViewV8onActionyycvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV8onActionyycvg",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV8onActionyycvg",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV8onActionyycvs",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV8onActionyycvs",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV8onActionyycvM",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV8onActionyycvM",
+                "moduleName": "CardFlexKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(card:cardVariant:onAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardFlexAnimationView",
+                "printedName": "CardFlexKit.CardFlexAnimationView",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<CardFlexKit.Card>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Card",
+                    "printedName": "CardFlexKit.Card",
+                    "usr": "s:11CardFlexKit0A0V"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardVariant",
+                "printedName": "CardFlexKit.CardVariant",
+                "usr": "s:11CardFlexKit0A7VariantO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11CardFlexKit0aB13AnimationViewV4card0F7Variant8onActionAC7SwiftUI7BindingVyAA0A0VG_AA0aG0Oyyctcfc",
+            "mangledName": "$s11CardFlexKit0aB13AnimationViewV4card0F7Variant8onActionAC7SwiftUI7BindingVyAA0A0VG_AA0aG0Oyyctcfc",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11CardFlexKit0aB13AnimationViewV4bodyQrvp",
+            "mangledName": "$s11CardFlexKit0aB13AnimationViewV4bodyQrvp",
+            "moduleName": "CardFlexKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11CardFlexKit0aB13AnimationViewV4bodyQrvg",
+                "mangledName": "$s11CardFlexKit0aB13AnimationViewV4bodyQrvg",
+                "moduleName": "CardFlexKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11CardFlexKit0aB13AnimationViewV",
+        "mangledName": "$s11CardFlexKit0aB13AnimationViewV",
+        "moduleName": "CardFlexKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 384,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardModifier.swift",
+      "kind": "BooleanLiteral",
+      "offset": 254,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardTextField.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 13,
+      "value": "\"Card Number\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardTextField.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardTextField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 254,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jaydip\/Desktop\/CardFlexKit\/CardFlexKit\/CardFlexView.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

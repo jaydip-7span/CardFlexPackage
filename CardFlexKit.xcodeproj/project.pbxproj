@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76E3A6CA2D27BBFC002A304A /* CardFlexKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 76E3A6C92D27BBFC002A304A /* CardFlexKit.docc */; };
 		76E3A6D02D27BBFD002A304A /* CardFlexKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E3A6C52D27BBFC002A304A /* CardFlexKit.framework */; };
 		76E3A6D52D27BBFD002A304A /* CardFlexKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E3A6D42D27BBFD002A304A /* CardFlexKitTests.swift */; };
-		76E3A6D62D27BBFD002A304A /* CardFlexKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E3A6C82D27BBFC002A304A /* CardFlexKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76E3A6E82D27BE4B002A304A /* assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E3A6E72D27BE4B002A304A /* assest.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +23,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76AB42952D2CFA2E00D3075C /* CardFlexAnimation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CardFlexAnimation; path = ../../../Documents/CardFlexAnimation; sourceTree = "<group>"; };
 		76E3A6C52D27BBFC002A304A /* CardFlexKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardFlexKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76E3A6C82D27BBFC002A304A /* CardFlexKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardFlexKit.h; sourceTree = "<group>"; };
-		76E3A6C92D27BBFC002A304A /* CardFlexKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CardFlexKit.docc; sourceTree = "<group>"; };
 		76E3A6CF2D27BBFD002A304A /* CardFlexKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFlexKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E3A6D42D27BBFD002A304A /* CardFlexKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlexKitTests.swift; sourceTree = "<group>"; };
+		76E3A6E72D27BE4B002A304A /* assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assest.xcassets; path = /Users/jaydip/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/../../../../../../../../../Desktop/CardFlexKit/CardFlexKit/assest.xcassets; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +70,8 @@
 		76E3A6C72D27BBFC002A304A /* CardFlexKit */ = {
 			isa = PBXGroup;
 			children = (
-				76E3A6C82D27BBFC002A304A /* CardFlexKit.h */,
-				76E3A6C92D27BBFC002A304A /* CardFlexKit.docc */,
+				76AB42952D2CFA2E00D3075C /* CardFlexAnimation */,
+				76E3A6E72D27BE4B002A304A /* assest.xcassets */,
 			);
 			path = CardFlexKit;
 			sourceTree = "<group>";
@@ -92,7 +91,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E3A6D62D27BBFD002A304A /* CardFlexKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E3A6E82D27BE4B002A304A /* assest.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E3A6CA2D27BBFC002A304A /* CardFlexKit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +338,7 @@
 		76E3A6DA2D27BBFD002A304A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -358,6 +357,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jaydip-jadav.CardFlexKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,6 +369,7 @@
 		76E3A6DB2D27BBFD002A304A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -385,6 +388,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jaydip-jadav.CardFlexKit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

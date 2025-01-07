@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CardFlexKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import CardFlexKit
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+public struct Card {
+  public var name: Swift.String
+  public var number: Swift.String
+  public var year: Swift.String
+  public var month: Swift.String
+  public var cvv: Swift.String
+  public init(number: Swift.String = "", name: Swift.String = "", year: Swift.String = "", month: Swift.String = "", cvv: Swift.String = "")
+}
+public enum ActiveField {
+  case number
+  case name
+  case month
+  case year
+  case cvv
+  public static func == (a: CardFlexKit.ActiveField, b: CardFlexKit.ActiveField) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CardVariant {
+  case cardinfo(name: Swift.String, cardIcon: Swift.String, color: SwiftUI.Color)
+}
+public struct CardFlexAnimationView : SwiftUI.View {
+  @SwiftUI.Binding @_projectedValueProperty($card) public var card: CardFlexKit.Card {
+    get
+    nonmutating set
+    nonmutating _modify
+  }
+  public var $card: SwiftUI.Binding<CardFlexKit.Card> {
+    get
+  }
+  @SwiftUI.State @_projectedValueProperty($cardVariant) public var cardVariant: CardFlexKit.CardVariant {
+    get
+    nonmutating set
+    nonmutating _modify
+  }
+  public var $cardVariant: SwiftUI.Binding<CardFlexKit.CardVariant> {
+    get
+  }
+  public var onAction: () -> ()
+  public init(card: SwiftUI.Binding<CardFlexKit.Card>, cardVariant: CardFlexKit.CardVariant, onAction: @escaping () -> ())
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11CardFlexKit0aB13AnimationViewV4bodyQrvp", 0) __
+}
+extension CardFlexKit.ActiveField : Swift.Equatable {}
+extension CardFlexKit.ActiveField : Swift.Hashable {}
